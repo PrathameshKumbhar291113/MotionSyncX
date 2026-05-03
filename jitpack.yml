@@ -1,0 +1,5 @@
+# https://docs.jitpack.io/android/
+jdk:
+  - openjdk17
+install:
+  - ./gradlew :motionsyncx:publishReleasePublicationToMavenLocal --no-daemon --stacktrace
